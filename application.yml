@@ -1,8 +1,9 @@
 my:
-  app: bonjour dame
+  app: bonjour dame depuis le serveur de configuration
 server:
   port: 8888
 app:
-  name:  Apprendre Spring properties file
-  descriptin: Je suis une formation ${app.name}
+  name:  Apprendre Spring properties file et serveur de configuration
+  description: Je suis une formation ${app.name}
   listevaleur: one,two,three
+dbvalues: {connectionSring: "http://_______",userName: "test", password: 'test'}
