@@ -1,0 +1,8 @@
+my:
+  app: bonjour dame
+server:
+  port: 8888
+app:
+  name:  Apprendre Spring properties file
+  descriptin: Je suis une formation ${app.name}
+  listevaleur: one,two,three
